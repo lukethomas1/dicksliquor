@@ -47,12 +47,21 @@ body {
     background-repeat: no-repeat;
 }
 
+.info-section {
+    font-family: 'Oleo Script', sans-serif;
+}
+
+#info-img {
+    width: 50%;
+    height: 50%;
+}
+
 h1 {
     font-size: 5em;
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 h3 {
