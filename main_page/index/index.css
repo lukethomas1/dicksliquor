@@ -1,0 +1,30 @@
+#searchbar {
+    background-color: #000000;
+}
+
+#searchbutton {
+    background-color: #000000;
+    color: #a0a0a0;
+}
+
+.carousel {
+    width: 60%;
+}
+
+.dropdown a {
+    font-size: 1.5em;
+}
+
+.navbar-brand {
+    font-size: 2.25em;
+    padding-right: 2em;
+}
+
+.navbar-nav > li {
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+body {
+    background-color: #0a0a0a;
+}
