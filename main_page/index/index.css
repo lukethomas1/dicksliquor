@@ -15,16 +15,35 @@
     font-size: 1.5em;
 }
 
+.dropdown-menu {
+    background-color: #000000;
+}
+
+.dropdown-menu > li > a {
+    color: white;
+}
+
+.page-header {
+    margin-left: 2em;
+}
+
+@media (min-width: 979px) {
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+    }
+}
+
 .navbar-brand {
     font-size: 2.25em;
     padding-right: 2em;
 }
 
 .navbar-nav > li {
-    padding-left: 4em;
+    margin-left: 4em;
     padding-right: 4em;
 }
 
 body {
     background-color: #0a0a0a;
+    color: white;
 }
