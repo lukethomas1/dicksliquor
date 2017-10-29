@@ -1,3 +1,14 @@
+body {
+    background-color: #0a0a0a;
+    color: white;
+}
+
+.underline-hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
 #searchbar {
     background-color: #000000;
 }
@@ -5,6 +16,23 @@
 #searchbutton {
     background-color: #000000;
     color: #a0a0a0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#myCarousel {
+    width: 100%;
+    height: 70%;
+    margin: auto;
+}
+
+
+.carousel-inner > .item > img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
 }
 
 .carousel {
@@ -43,7 +71,84 @@
     padding-right: 4em;
 }
 
-body {
-    background-color: #0a0a0a;
-    color: white;
+/* Contact Information */
+
+.contact-break {
+    text-align: center;
+}
+
+.contact-section {
+    margin: auto;
+}
+
+.store-img {
+    display: inline-block;
+}
+
+.store-img > img {
+    height: 300px;
+    width: 400px;
+}
+
+.location-map {
+    float: left;
+}
+
+.hours-info {
+    text-align: center;
+    margin: auto;
+}
+
+.google-map {
+    display: inline-block;
+}
+
+.google-map > iframe {
+    display: inline-block;
+}
+
+.hours-group {
+    display: inline-block;
+    width: 600px;
+}
+
+.hours-days {
+    display: inline-block;
+    text-align: left;
+    margin: auto;
+}
+
+.hours-times {
+    display: inline-block;
+    text-align: left;
+    margin-left: 1em;
+}
+
+.hours-days > h5 {
+    margin-bottom: 1em;
+}
+
+.hours-times > h5 {
+    margin-bottom: 1em;
+}
+
+.footer-info {
+    padding-top: 2em;
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+.sincerely {
+    font-size: 1.5em;
+}
+
+footer {
+    height: 18%;
+    background-color: black;
+    text-align: center;
+}
+
+.copyright {
+    color: #60605e;
+    font-size: 0.8em;
 }

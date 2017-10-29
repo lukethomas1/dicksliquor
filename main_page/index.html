@@ -30,6 +30,7 @@
 </head>
 
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -47,7 +48,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Beer</span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="" aria-haspopup="true" aria-expanded="false">Beer</span></a>
                 <ul class="dropdown-menu">
                     <li><a href="#">Local Brews</a></li>
                     <li role="separator" class="divider"></li>
@@ -57,39 +58,37 @@
                 </ul>
                 </li>
                 <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Wine</span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="" aria-haspopup="true" aria-expanded="false">Wine</span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Specialties</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">Reds</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
+                    <li><a href="#">Whites</a></li>
                 </ul>
                 </li>
                 <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Spirits</span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="" aria-haspopup="true" aria-expanded="false">Spirits</span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Tequila</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">Vodka</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
+                    <li><a href="#">Whiskey</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Rum</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Liqueurs</a></li>
                 </ul>
                 </li>
                 <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tobacco</span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="" aria-haspopup="true" aria-expanded="false">Tobacco</span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Cigars</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">Cigarettes</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
+                    <li><a href="#">Accessories</a></li>
                 </ul>
                 </li>
             </ul>
@@ -102,5 +101,106 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
+
+    <!-- Slideshow -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+        
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="./assets/slide1.png" alt="Los Angeles">
+            </div>
+        
+            <div class="item">
+                <img src="./assets/slide2.png" alt="Chicago">
+            </div>
+        
+            <div class="item">
+                <img src="./assets/slide3.png" alt="New York">
+            </div>
+            
+            <div class="item">
+                <img src="./assets/slide4.jpg" alt="New York">
+            </div>
+
+            <div class="item">
+                <img src="./assets/slide5.png" alt="Test">
+            </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="contact-break">
+        <h3>Store Information</h3>
+        <hr class="underline-hr">
+    </div>
+
+    <!-- <div class="store-img">
+        <img src="./assets/colored.png" alt="">
+    </div> -->
+
+    <div class="contact-section">
+
+        <!-- <div class="location-map">
+        </div> -->
+
+        <div class="hours-info">
+            <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10339.499816063075!2d-117.28175374281025!3d32.840801003616654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc03e425b74389%3A0x72a93d729107b72a!2sDick&#39;s+Liquor!5e0!3m2!1sen!2sus!4v1509238102875" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="hours-group">
+                <h3>Hours</h3>
+                <div class="hours-days">
+                    <h5>Mon</h5>
+                    <h5>Tue</h5>
+                    <h5>Wed</h5>
+                    <h5>Thu</h5>
+                    <h5>Fri</h5>
+                    <h5>Sat</h5>
+                    <h5>Sun</h5>
+                </div>
+                <div class="hours-times">
+                    <h5>8:00 am - 11:00 pm</h5>
+                    <h5>8:00 am - 11:00 pm</h5>
+                    <h5>8:00 am - 11:00 pm</h5>
+                    <h5>8:00 am - 11:00 pm</h5>
+                    <h5>8:00 am - 12:00 pm</h5>
+                    <h5>8:00 am - 12:00 pm</h5>
+                    <h5>8:00 am - 10:00 pm</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-info">
+            <p class="sincerely">Dick's Liquor and Wine</p>
+            <p>737 Pearl St, La Jolla, California 92037, United States</p>
+            <p>(858) 459 - 3889</p>
+        </div>
+
+        <p class="copyright">
+            Copyright &#169 2017 Dick's Liquor and Wine - All Rights Reserved.
+        </p>
+    </footer>
 </body>
 </html>
