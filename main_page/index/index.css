@@ -19,6 +19,7 @@ body {
 }
 
 .navbar {
+    font-family: "Rye";
     margin-bottom: 0;
 }
 
@@ -132,8 +133,19 @@ body {
     margin-bottom: 1em;
 }
 
+.foot {
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-img {
+    width: 18%;
+    height: 50%;
+}
+
 .footer-info {
-    padding-top: 2em;
+    margin-top: 1em;
+    padding-top: 1em;
     font-size: 1em;
     margin-bottom: 2em;
 }
@@ -143,7 +155,7 @@ body {
 }
 
 footer {
-    height: 18%;
+    height: 25%;
     background-color: black;
     text-align: center;
 }
